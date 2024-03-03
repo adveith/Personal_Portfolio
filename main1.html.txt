@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio showcasing the projects, experiences, and skills of Adveith Walke.">
+    <meta name="keywords" content="portfolio, projects, experiences, skills, education, certificates">
+    <title>Adveith Walke's Portfolio</title>
+</head>
+<body>
+
+    <header>
+        <h1>Adveith Walke's Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Info</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#languages">Languages</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+        </ul>
+    </nav>
+
+    <div id="about">
+        <section>
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I'm passionate about web development and love creating awesome websites.</p>
+        </section>
+    </div>
+
+    <div id="projects">
+        <section>
+            <h2>Projects</h2>
+            <h3>Project 1</h3>
+            <p>Description of project 1.</p>
+            <h3>Project 2</h3>
+            <p>Description of project 2.</p>
+        </section>
+    </div>
+
+    <div id="contact">
+        <section>
+            <h2>Contact Info:</h2>
+            <p>Email: <a href="mailto:adveith17@gmail.com">adveith17@gmail.com</a></p>
+            <p>Phone: +91 989014717</p>
+            <h2>Websites</h2>
+            <p>1 - <a href="https://www.linkedin.com/in/adveith-walke-b66a06221/">LinkedIn</a></p>
+            <p>2 - <a href="https://github.com/adveith">GitHub</a></p>
+        </section>
+    </div>
+
+    <div id="experience">
+        <section>
+            <h2>Experience</h2>
+
+            <article>
+                <h3>Google Developer Student Club</h3>
+                <p>Full-time: 6 months</p>
+                <p>On-site</p>
+                <h4>Co-leader of Marketing and Creative Team</h4>
+                <p><!-- Add description --></p>
+            </article>
+
+            <!-- Add more experiences -->
+            
+        </section>
+    </div>
+
+    <div id="education">
+        <section>
+            <h2>Education</h2>
+
+            <article>
+                <h3>Dy Patil International University</h3>
+                <p>Location: [Location]</p>
+                <p>Full-time: March 2022 - Present</p>
+                <h4>Bachelor of Technology in Computer Science Engineering</h4>    
+                <h5>Majors: Artificial Intelligence</h5>
+                <!-- Add achievements -->
+            </article>
+
+            <!-- Add more education details -->
+            
+        </section>
+    </div>
+
+    <div id="languages">
+        <section>
+            <h2>Languages</h2>
+            <ul>
+                <li>English</li>
+                <li>Hindi</li>
+                <li>Marathi</li>
+                <li>Malayalam</li>
+                <li>German</li>
+            </ul>
+        </section>
+    </div>
+
+    <div id="skills">
+        <section>
+            <h2>Skills</h2>
+            <!-- Add skills -->
+        </section>
+    </div>
+
+    <div id="certificates">
+        <section>
+            <h2>Certificates</h2>
+            <p><a href="#">Click here to check Certificates</a></p>
+            <!-- Add certificate details -->
+        </section>
+    </div>
+
+</body>
+</html>

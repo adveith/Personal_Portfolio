@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Certificates showcasing the projects, experiences, and skills of Adveith Walke.">
+    <meta name="keywords" content="certificates">
+    <title>Certificates</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #FE3A4A; /* Coral Red background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Ensure the footer stays at the bottom */
+            margin: 0;
+            position: relative; /* Necessary for footer positioning */
+        }
+        a {
+            text-decoration: none;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        footer {
+            background-color: #000000;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+        }
+
+        .folder {
+            width: 200px;
+            height: 200px;
+            background: linear-gradient(45deg, #FEC501, #FEC501); /* Golden Poppy background color */
+            border-radius: 10px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .folder:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .folder .folder-icon {
+            width: 80px;
+            height: 80px;
+            background-color: #ADD8E6; /* Light blue color */
+            background-image: url('https://img.icons8.com/color/48/000000/folder-invoices--v1.png');
+            background-size: cover;
+            background-position: center;            
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            border: 2px solid #fff; 
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .folder:hover .folder-icon {
+            transform: rotate(360deg) scale(1.1);
+        }
+
+        .folder .folder-name {
+            font-weight: bold;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+
+        .folder:hover .folder-name {
+            color: black; 
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 768px) {
+            .folder {
+                width: calc(50% - 20px);
+                height: 150px;
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+            .folder {
+                width: calc(100% - 20px);
+                height: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="./Skills.html">
+            <div class="folder">
+                <div class="folder-icon"></div>
+                <div class="folder-name">Skills Certificates</div>
+            </div>
+        </a>
+        <a href="./Skills.html">
+            <div class="folder">
+                <div class="folder-icon"></div>
+                <div class="folder-name">Extracurricular Activities Award Certificates</div>
+            </div>
+        </a>
+        <a href="./All.html">
+            <div class="folder">
+                <div class="folder-icon"></div>
+                <div class="folder-name">All Certificates</div>
+            </div>
+        </a>
+    </div>
+    <footer>
+        <p>&copy; 2024 Adveith Walke. All rights reserved.</p>
+    </footer>
+</body>
+</html>
